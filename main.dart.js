@@ -98187,7 +98187,7 @@ $S:0}
 A.avx.prototype={
 $2(a,b){var s,r=b.b
 if(r>=1100)s=3
-else s=r>=640?2:1
+else s=r>=768?2:1
 r=this.a
 return A.ad5(new A.tB(s,16,16,0.72),new A.avv(r),J.c9(r),B.aC,null,!1)},
 $S:80}
@@ -98358,7 +98358,7 @@ $S:5}
 A.axm.prototype={
 $2(a,b){var s,r=b.b
 if(r>=1100)s=3
-else s=r>=640?2:1
+else s=r>=768?2:1
 r=this.a
 return A.ad5(new A.tB(s,16,16,0.72),new A.axk(r),J.c9(r),null,B.G_,!0)},
 $S:80}
@@ -98379,7 +98379,7 @@ D(a){return A.wb(new A.aBj())}}
 A.aBj.prototype={
 $2(a,b){var s,r=b.b
 if(r>=1100)s=3
-else s=r>=640?2:1
+else s=r>=768?2:1
 return A.ad5(new A.tB(s,16,16,0.72),new A.aBi(),s*2,null,B.G_,!0)},
 $S:80}
 A.aBi.prototype={
@@ -98753,16 +98753,15 @@ A.apQ.prototype={
 $1(a){return a.a!==this.a.d.a},
 $S:679}
 A.apR.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h=b.b
-if(h>=900)s=4
-else s=h>=560?2:1
-r=(h-16*(s-1))/s
-h=A.b([],t.p)
-for(q=this.b,p=q.length,o=this.a,n=s===1,m=0;m<q.length;q.length===p||(0,A.I)(q),++m){l=q[m]
-k=n?1.15:0.72
-j=l.e
-j=j==null?i:j.b
-h.push(new A.bm(r,i,new A.Av(k,new A.en(new A.t_(l.b,l.d,l.z,j,l.gfW(),l.at,l.ax,!1,new A.apP(o,l),i),i),i),i))}return A.fF(B.bv,h,16,16)},
+$2(a,b){var s,r,q,p,o,n,m,l,k=null,j=b.b
+if(j>=1152)s=4
+else s=j>=768?2:1
+r=(j-16*(s-1))/s
+j=A.b([],t.p)
+for(q=this.b,p=q.length,o=this.a,n=0;n<q.length;q.length===p||(0,A.I)(q),++n){m=q[n]
+l=m.e
+l=l==null?k:l.b
+j.push(new A.bm(r,k,new A.Av(0.72,new A.en(new A.t_(m.b,m.d,m.z,l,m.gfW(),m.at,m.ax,!1,new A.apP(o,m),k),k),k),k))}return A.fF(B.bv,j,16,16)},
 $S:680}
 A.apP.prototype={
 $0(){return this.a.e.$1(this.b)},
@@ -99059,7 +99058,7 @@ D(a){return new A.TB(new A.aCE(this),null)}}
 A.aCE.prototype={
 $2(a,b){var s,r,q=b.w
 if(q>=1100)s=3
-else s=q>=640?2:1
+else s=q>=768?2:1
 r=this.a
 return A.aQE(new A.FO(new A.aCD(r),r.c.length,!0,!0,!0,A.aUr(),null),new A.tB(s,16,16,0.72))},
 $S:684}
@@ -99122,7 +99121,7 @@ D(a){return A.wb(new A.aDg())}}
 A.aDg.prototype={
 $2(a,b){var s,r=b.b
 if(r>=1100)s=3
-else s=r>=640?2:1
+else s=r>=768?2:1
 return A.ad5(new A.tB(s,16,16,0.72),new A.aDf(),s*2,B.aC,null,!1)},
 $S:80}
 A.aDf.prototype={
