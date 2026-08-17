@@ -98185,12 +98185,11 @@ A.avw.prototype={
 $0(){return A.cV(this.a).dF("/",null)},
 $S:0}
 A.avx.prototype={
-$2(a,b){var s,r,q=b.b
-if(q>=1100)s=3
-else s=q>=640?2:1
-q=this.a
-r=J.c9(q)
-return A.ad5(new A.tB(s,16,16,s===1?1.15:0.72),new A.avv(q),r,B.aC,null,!1)},
+$2(a,b){var s,r=b.b
+if(r>=1100)s=3
+else s=r>=640?2:1
+r=this.a
+return A.ad5(new A.tB(s,16,16,0.72),new A.avv(r),J.c9(r),B.aC,null,!1)},
 $S:80}
 A.avv.prototype={
 $2(a,b){var s=J.cH(this.a,b),r=s.e
@@ -98357,12 +98356,11 @@ A.axl.prototype={
 $1(a){this.a.e.$1(this.b)},
 $S:5}
 A.axm.prototype={
-$2(a,b){var s,r,q=b.b
-if(q>=1100)s=3
-else s=q>=640?2:1
-q=this.a
-r=J.c9(q)
-return A.ad5(new A.tB(s,16,16,s===1?1.15:0.72),new A.axk(q),r,null,B.G_,!0)},
+$2(a,b){var s,r=b.b
+if(r>=1100)s=3
+else s=r>=640?2:1
+r=this.a
+return A.ad5(new A.tB(s,16,16,0.72),new A.axk(r),J.c9(r),null,B.G_,!0)},
 $S:80}
 A.axk.prototype={
 $2(a,b){var s=J.cH(this.a,b),r=s.e
@@ -99059,12 +99057,11 @@ $S:683}
 A.a0a.prototype={
 D(a){return new A.TB(new A.aCE(this),null)}}
 A.aCE.prototype={
-$2(a,b){var s,r,q,p=b.w
-if(p>=1100)s=3
-else s=p>=640?2:1
-r=s===1?1.15:0.72
-q=this.a
-return A.aQE(new A.FO(new A.aCD(q),q.c.length,!0,!0,!0,A.aUr(),null),new A.tB(s,16,16,r))},
+$2(a,b){var s,r,q=b.w
+if(q>=1100)s=3
+else s=q>=640?2:1
+r=this.a
+return A.aQE(new A.FO(new A.aCD(r),r.c.length,!0,!0,!0,A.aUr(),null),new A.tB(s,16,16,0.72))},
 $S:684}
 A.aCD.prototype={
 $2(a,b){var s=this.a,r=s.c[b],q=r.e
@@ -109647,7 +109644,7 @@ s($,"bdb","a4w",()=>new A.ato(A.bU("[/\\\\]",!0,!1),A.bU("[^/\\\\]$",!0,!1),A.bU
 s($,"bda","Mi",()=>new A.asS(A.bU("/",!0,!1),A.bU("(^[a-zA-Z][-+.a-zA-Z\\d]*://|[^/])$",!0,!1),A.bU("[a-zA-Z][-+.a-zA-Z\\d]*://[^/]*",!0,!1),A.bU("^/",!0,!1)))
 s($,"bd8","aLU",()=>A.b3w())
 s($,"bcB","a4u",()=>A.aIG())
-s($,"bby","aLJ",()=>A.b_H("*"))
+s($,"bby","aLJ",()=>A.b_H(""))
 s($,"bdd","aVO",()=>A.bU("[A-Za-z0-9._%+\\-]+@[A-Za-z0-9.\\-]+\\.[A-Za-z]{2,}",!0,!1))
 s($,"bde","aVP",()=>A.bU("eyJ[A-Za-z0-9_\\-]{8,}\\.[A-Za-z0-9_\\-]{8,}\\.[A-Za-z0-9_\\-]{8,}",!0,!1))
 s($,"bdg","aVR",()=>A.bU("sb_publishable_[A-Za-z0-9_\\-]{6,}",!0,!1))
